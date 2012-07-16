@@ -1,11 +1,22 @@
 #include<stdio.h>
 
-/* Unable to find exit case. Find that and problem is done. */
+int test();
+int maintest();
 
-int main()
+/* Out the input till input val not equal to 42 */
+int test()
 {
-    int val;
-    scanf("%d",&val);
-    while(val != 42)
+    maintest();
+    return 0;
+}
+
+int maintest()
+{
+    int val=0;
+    while(scanf("%d",&val)>0 && val !=42)
+    {
+        printf("%d\n",val);
+    }
+
     return 0;
 }

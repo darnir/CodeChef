@@ -5,6 +5,7 @@ int factorial();
 
 int main()
 {
-    factorial();
+    //factorial();
+    test();
     return 0;
 }

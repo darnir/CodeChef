@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1342444289 source:/home/sauron/Programming/CodeChef/factorial.c
+1342456208 source:/home/sauron/Programming/CodeChef/factorial.c
+	<stdio.h>
+
+1342456618 source:/home/sauron/Programming/CodeChef/main.c
 	<stdio.h>
 	<stdlib.h>
 
-1342443070 source:/home/sauron/Programming/CodeChef/main.c
-	<stdio.h>
-	<stdlib.h>
+1342456208 source:/home/sauron/Programming/CodeChef/functions.c
 
-1342444945 source:/home/sauron/Programming/CodeChef/functions.c
+1342457647 source:/home/sauron/Programming/CodeChef/test.c
+	<stdio.h>
 

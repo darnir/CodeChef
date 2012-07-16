@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int test();
+int maintest();
+
+/* Unable to find exit case. Find that and problem is done. */
+int test()
+{
+    //man();
+    maintest();
+    return 0;
+}
+
+int maintest()
+{
+    int val=0;
+    while(1)
+    {
+        scanf("%d",&val);
+        if (val == 42 || val<=0)
+        {
+            break;
+        }
+        printf("%d\n",val);
+    }
+
+    return 0;
+}
+
+int man()
+{
+    int x;
+for(; scanf("%d",&x) > 0 && x != 42; printf("%d\n", x));
+return 0;
+}
+
