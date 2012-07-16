@@ -6,6 +6,7 @@ int factorial();
 int main()
 {
     //factorial();
-    test();
+    //test();
+    mainhs08test();
     return 0;
 }
