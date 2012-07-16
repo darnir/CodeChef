@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int factorial();
+int calc(int);
+
+int factorial()
+{
+    main();
+}
+
+int main()
+{
+    int nos;
+    scanf("%d",&nos);
+    int inp
+    return 0;
+}
+
+int  calc()
+{
+    int nos;
+//  printf("Enter a value: ");
+    scanf("%d",&nos);
+
+    int den = 5;
+    int n=0;
+    while (den < nos)
+    {
+        n += nos/den;
+        den*=5;
+    }
+    printf("%d",n);
+    return 0;
+}
+
+
